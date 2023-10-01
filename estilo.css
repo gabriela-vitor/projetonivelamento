@@ -1,0 +1,200 @@
+*{
+    margin:0;
+}
+
+#header-home{
+    width: 100%;
+    height: 20vh;
+    background-color: #FFD1D1 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+   
+}
+
+#header-nav{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+}
+
+ul{
+     
+    display: flex;
+    
+    
+}
+
+li{
+    list-style: none;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFBE9;
+}
+
+a:hover{
+    color: #D5B4B4;
+
+    
+}
+
+
+#section-banner{
+    width: 100%;
+    height: 50vh;
+   background-color: #FFD1D1;
+}
+
+#section-cards{
+    width: 100%;
+    height: 60vh;
+    background-color: #FFD1D1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.card{
+    width: 20%;
+    height: 60%;
+    border: 3px solid #FFFBE9;
+    box-shadow: 0 4px 8px 0 white;
+}
+
+.img-card{
+    width: 100%;
+    background-color: #FFD1D1;
+    height: 70%;
+}
+
+.text-card{
+    width: 100%;
+    height: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #FFD1D1;
+}
+
+.text-card-titulo{
+    font-size: 17px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    color: black;
+}
+
+.text-card-p{
+    color: #FF6666;
+}
+
+.text-card-p:hover{
+    color: #A4BC92;
+}
+
+#secao3{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD1D1;
+
+}
+
+#text-secao3{
+    background-color: #FFD1D1;
+    width: 25%;
+    height: 80%;
+    margin-left: 15%;
+
+}
+
+#img-secao3{
+    background-image: url(flor\ rosa.webp);
+    background-size: contain ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120%;
+  
+}
+
+#title{
+    margin-top: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+hr{
+    border: 2px solid white;
+    margin-right: 50px;
+}
+
+#p-secao3{
+margin-top: 15%;
+margin-right: 50%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #FF6666;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-top: 15px;
+   padding-left: 15px;
+ }
+ 
+
+ @media screen and (max-width:1063px){
+    #p-secao3{
+        margin-right: 30%;
+    }
+}
+
+@media screen and (max-width:751px){
+    
+
+    .text-card{
+        width: 100%;
+        height: 70%;
+
+    }
+
+   #p-secao3{
+    margin-right: 20%;
+   }
+}
+
+@media screen and (max-width: 478px){
+    #p-secao3{
+        margin-right: 10%;
+    }
+
+    .text-card-titulo{
+        font-size: 14px;
+    }
+
+    .text-card-p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 396px){
+    #p-secao3{
+        font-size: 15px;
+    }
+
+}
